@@ -41,3 +41,10 @@ Windows 本地资料收集与找回工具，提供剪贴板历史、截图标注
 - [公开 Issues](https://github.com/wmousew/PomeKeep-Releases/issues)：请提供软件版本、Windows 版本和复现步骤。
 
 上传截图和日志前，请确认没有需要保密的内容。
+
+## 测试版（可选）
+
+- [当前测试版 2.5.3-beta.1](https://github.com/wmousew/PomeKeep-Releases/releases/tag/v2.5.3-beta.1)
+- [测试更新渠道](https://github.com/wmousew/PomeKeep-Releases/releases/tag/beta)
+
+测试版与正式版分别安装，资料不会自动同步。测试版数据保存在 `%APPDATA%/pomekeep-beta`。首次下载安装测试版，后续通过程序内更新。两版默认快捷键相同，建议退出另一版后使用或分别配置。
