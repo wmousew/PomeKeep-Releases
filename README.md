@@ -7,19 +7,19 @@ Windows 本地资料收集与找回工具，提供剪贴板历史、截图标注
 ## 下载
 
 - [最新正式版本](https://github.com/wmousew/PomeKeep-Releases/releases/latest)
-- [2.5.2 安装包](https://github.com/wmousew/PomeKeep-Releases/releases/download/v2.5.2/PomeKeep-2.5.2-windows-x64-setup.exe)
-- [2.5.2 便携包](https://github.com/wmousew/PomeKeep-Releases/releases/download/v2.5.2/PomeKeep-2.5.2.zip)
+- [2.5.3 安装包](https://github.com/wmousew/PomeKeep-Releases/releases/download/v2.5.3/PomeKeep-2.5.3-windows-x64-setup.exe)
+- [2.5.3 便携包](https://github.com/wmousew/PomeKeep-Releases/releases/download/v2.5.3/PomeKeep-2.5.3.zip)
 
 安装版运行安装包；便携版完整解压后运行根目录 `PomeKeep.exe`，保留 `app`、`update` 和更新后生成的 `rollback` 目录。
 
-## 2.5.2 更新
+## 2.5.3 更新
 
 - 精简顶部信息，移除重复的版本展示与更新入口；查看版本、检查更新统一在「设置 → 常规」中操作。
 - 将 QQ群、微信、GitHub 提交反馈和查看更新说明统一放在页面底部，为帮助内容腾出更多阅读空间。
 - 点击 QQ群或微信按钮即可复制号码，左下角显示成功提示，约 2.5 秒后自动消失。
 - 切换「快速上手」「常见问题」「诊断报告」时，底部按钮保持位置，方便随时联系与反馈。
 
-**2.4.0 / 2.4.1 用户如果遇到自动更新自行取消，请下载 2.5.2 安装包升级并保留个人数据。** 2.3.x 及更早版本也需要使用安装包切换目录布局。
+**2.4.0 / 2.4.1 用户如果遇到自动更新自行取消，请下载 2.5.3 安装包升级并保留个人数据。** 2.3.x 及更早版本也需要使用安装包切换目录布局。
 
 ## 自动更新
 
@@ -48,3 +48,7 @@ Windows 本地资料收集与找回工具，提供剪贴板历史、截图标注
 - [测试更新渠道](https://github.com/wmousew/PomeKeep-Releases/releases/tag/beta)
 
 测试版与正式版分别安装，资料不会自动同步。测试版数据保存在 `%APPDATA%/pomekeep-beta`。首次下载安装测试版，后续通过程序内更新。两版默认快捷键相同，建议退出另一版后使用或分别配置。
+
+## 2.5.3 更新
+
+窗口吸附、物理像素尺寸输入与微调，新增序号（N）和马赛克（M），优化点选编辑、颜色/字号记忆、文字输入及搜索窗口隐藏。[完整更新说明](https://github.com/wmousew/PomeKeep-Releases/releases/tag/v2.5.3)。
