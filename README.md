@@ -1,25 +1,30 @@
 # 拾留 PomeKeep
 
-Windows 本地资料收集与查找工具，提供剪贴板历史、截图标注、录屏、轻量笔记、OCR 和关键词搜索。
+Windows 本地资料收集与查找工具，提供剪贴板历史、截图标注、贴图、长截图、录屏、轻量笔记、OCR 和关键词搜索。
 
 本仓库仅用于公开说明和发布附件。应用源码保存在私有仓库。GitHub 自动生成的 Source code 压缩包仅包含本仓库的 README，不包含应用源码。
 
 ## 下载
 
 - [最新正式版本](https://github.com/wmousew/PomeKeep-Releases/releases/latest)
-- [2.5.4 安装包](https://github.com/wmousew/PomeKeep-Releases/releases/download/v2.5.4/PomeKeep-2.5.4-windows-x64-setup.exe)
-- [2.5.4 便携包](https://github.com/wmousew/PomeKeep-Releases/releases/download/v2.5.4/PomeKeep-2.5.4.zip)
+- [2.5.6 安装包](https://github.com/wmousew/PomeKeep-Releases/releases/download/v2.5.6/PomeKeep-2.5.6-windows-x64-setup.exe)
+- [2.5.6 便携包](https://github.com/wmousew/PomeKeep-Releases/releases/download/v2.5.6/PomeKeep-2.5.6.zip)
 
 安装包运行安装；便携包完整解压后，运行根目录 `PomeKeep.exe`。请保留 `app`、`update` 及更新后生成的 `rollback` 目录。
 
-## 2.5.4 更新
+## 2.5.6 更新
 
-- 截图工具栏“更多 → 复制文字（OCR）”：识别当前选区和标注，查看、修改后复制。
-- 新增半透明荧光笔（H），支持颜色与线宽记忆、撤销重做及历史编辑。
-- 搜索关键词高亮、命中摘要、命中来源和预览定位；优化大量记录下的查询响应。
-- [完整更新说明](https://github.com/wmousew/PomeKeep-Releases/releases/tag/v2.5.4)
+汇总 2.5.4 之后的贴图和长截图改进，2.5.5 未单独发布正式版。
 
-**本次涉及数据库结构升级，请使用安装包升级。** 旧版自动更新入口会提示改用安装包。安装时保留用户数据，首次启动创建升级前数据库快照，再迁移到 schema 9。需要退回旧版时，先备份当前资料并恢复升级前快照；旧版不能直接打开新版数据库。
+- 贴图置顶、多窗口、移动缩放、完整图片复制、OCR 与继续编辑标注。
+- 手动向下滚动、连续采集与自动拼接，支持预览、暂停和撤销最后一段。
+- 长图独立窗口默认 100% 原始像素，右侧缩略导航与左侧滚动联动，标注和完整输出保持原图坐标。
+- 长图分段 OCR，改善小字识别；修复长图双击、跨屏遮挡、工具栏布局及贴图双屏边缘缩放问题。
+- [完整更新说明](https://github.com/wmousew/PomeKeep-Releases/releases/tag/v2.5.6)
+
+**2.5.4 可通过应用内替换更新升级到 2.5.6，数据库保持 schema 9。** 更早且数据库格式不兼容的版本按提示使用安装包。安装升级保留用户数据，重要资料建议提前备份。
+
+长截图首期仅支持竖向向下手动滚动，高度上限 30000 像素、总像素上限 6000 万；不支持自动滚动、横向拼接或反向追加。贴图不在程序重启后自动恢复。
 
 ## 自动更新
 
